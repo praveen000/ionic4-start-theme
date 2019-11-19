@@ -1,0 +1,25 @@
+:host {
+    ion-content {
+        --background: var(--ion-color-light);
+    }
+
+    ion-item {
+        border-radius: 0;
+        border-bottom: 1px dotted var(--ion-color-medium);
+    }
+
+    ion-card {
+        &.no-radius {
+            border-radius: 0;
+        }
+    }
+}
+.sc-ion-searchbar-ios-h {
+    height: 25px !important;
+}
+.searchbar-input-container.sc-ion-searchbar-ios {
+    height: 25px !important;
+}
+.searchbar{
+    --min-height: 44px;
+}
